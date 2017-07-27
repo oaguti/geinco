@@ -1,0 +1,121 @@
+div {box-sizing: border-box;}
+img {display: block;}
+#slider img{
+	width: 100%;
+}
+@media screen  and (min-width: 769px) and (max-width: 1024px) {
+	.cl50 {
+	width: 50%;
+	}
+	.cd30 {
+		width: 25%;
+		vertical-align: top;
+	}
+	/*.col-50 {
+		width: 300px;
+	}
+	.col-60, .fd_cont  {
+		width: calc(100% - 300px);
+	}*/
+}
+@media screen and (max-width: 768px) {
+	#menu_home {display: none;}
+	.slides-navigation a{
+		font-size: 50px;
+	}
+	.slides-navigation {
+	    width: calc(100% - 40px);
+	    left: 0;
+	    margin: 0 20px;
+	}
+	.tbl, .tbl-col, .tbl-cell, .mbl {
+		display: block;
+		overflow: hidden;
+	}
+	.tbl-cell.cd30, .cd1, .tbl-cell.cd30 {
+		display: none;
+	}
+	.cl50 {
+    width: 100%;
+	}
+	#cont {
+    margin: 20px 5%;
+	}
+}
+@media screen  and (min-width: 640px) and (max-width: 768px) {
+	.col-50 {
+		width: 300px;
+	}
+	.col-60, .fd_cont {
+		width: calc(100% - 300px);
+	}
+	
+}
+
+@media screen  and (max-width: 640px){
+	.formulario {
+	    padding: 0;
+	}
+	.wrap img {
+	    width: 100%;
+	}
+	.formulario input[type="text"], .formulario textarea {
+    	height: 35px;
+    	font-size: 20px;
+	}
+	#menu_int .menu, #menu_int .datos {
+		display: none;
+	}
+	#menu_mbl {
+    	padding: 0;
+	}
+	#menu_mbl #menu li {
+	    float: none;
+	    width: 100%;
+	   	padding: 15px 0;
+	   	margin-bottom: 0;
+	   	border-bottom: 1px solid #fff;
+	}
+	#menu_int {
+		width: 100%;
+		min-height: 80px;
+		float: none;
+	}
+	#menu_int .logo {
+    	margin-bottom: 0;
+    	float: left;
+	}
+	.col-50, .col-60 {
+		width: 100%;
+		float: none;
+		position: relative;
+    	overflow: hidden;
+	}
+	.fd_cont {
+		width: 100%;
+	}	
+	.mn_wrap {
+    	margin-top: 0;
+	}
+	#bt_movil {
+		display: block;
+		float: right;
+		font-size: 40px;
+		color:#fff;
+		width: 50px;
+		text-align: center;
+	}
+	.wrap_mvl {
+		overflow: hidden;
+		display: block;
+		width: 100%;
+	}
+	#menu_home {
+    margin-left: -150px;
+	}
+}
+@media screen and (max-width: 1366px){
+	.mn_wrap {
+    	margin-top: 50px;
+	}
+}
