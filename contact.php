@@ -40,5 +40,4 @@
 		</div>
 	</div>
 </div>
-<!--probando pull request -->
 <?php include('include/footer.php') ?>
